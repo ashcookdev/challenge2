@@ -21,10 +21,10 @@ No instalation needed please visit below to view my page.
 https://ashcookdev.github.io/challenge2/.
 
 ## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+This has no active links but will be completed as I move through the course
 
 ## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+Any issues contact me at ashleycook@mail.com
 
 ## Roadmap
 This will be updated as i complete the course with various links to my work.
