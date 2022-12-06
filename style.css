@@ -10,9 +10,18 @@ body {
 }
 
 
-header {background-image: url(https://static.vecteezy.com/system/resources/previews/000/189/076/original/vector-colorful-dark-diagonal-stripes-background.jpg) ;
+header {display: flex;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/000/189/076/original/vector-colorful-dark-diagonal-stripes-background.jpg) ;
   color: aliceblue;
-padding: 10px;}
+padding: 10px;
+display: flex;
+align-items: flex-start;
+justify-content: space-between;
+flex-direction: row;}
+
+header img {width: 100px;
+border-style: solid;
+border-color: aliceblue;}
 
   nav {display: flex;
     flex-direction: row;
@@ -34,6 +43,8 @@ margin-right: 50px;}
 .page-section {border-right-style: solid ;
 border-color: blue;}
 
+
+
 .gridparent {
 width: 100%;
 padding: 10px;
@@ -42,6 +53,8 @@ grid-template-columns: 1fr 1fr;
 grid-template-rows: 1fr 1fr;
 gap: 10px;
 }
+
+
 
 
 #html {
@@ -79,6 +92,12 @@ grid-column: span 2;}
 
 #line {word-spacing: 100px;
 text-align: center;}
+
+@media only screen
+  and (max-width: 481px) {
+.page-wrapper {
+      display: grid;
+      grid-template-columns: 1fr;}
 
 
 
